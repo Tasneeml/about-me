@@ -1,16 +1,16 @@
 body {
-    background-color: blanchedalmond;
+    background-color: black;
     color: black;
 
 }
 h1
 {
-    background-color: brown;
+    background-color:black;
     color: goldenrod;
 }
 ol{
-    background-color: lightcoral;
-    color: black;
+    background-color: lightsalmon;
+    color:black;
 }
 h2 {
 background-color: peru;
@@ -18,7 +18,7 @@ color: orangered;
 }
 ul{
     background-color: aqua;
-    color:white;
+    color:firebrick;
 
 }
 p {
