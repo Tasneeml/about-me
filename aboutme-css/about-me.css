@@ -1,0 +1,28 @@
+body {
+    background-color: blanchedalmond;
+    color: black;
+
+}
+h1
+{
+    background-color: brown;
+    color: goldenrod;
+}
+ol{
+    background-color: lightcoral;
+    color: black;
+}
+h2 {
+background-color: peru;
+color: orangered;
+}
+ul{
+    background-color: aqua;
+    color:white;
+
+}
+p {
+    background-color: lightslategray;
+    color: rgba(34, 33, 33, 0.356)56);
+}
+
