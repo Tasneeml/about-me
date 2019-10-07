@@ -1,4 +1,8 @@
 'use strict'
+var name=prompt('what is your name?');
+alert('welcome  ' + name + '  to my page'); 
+console.log('name'+name);
+
 var love=prompt('do you love me?');
 if ( love=='yes') {
  alert('of course you do');
