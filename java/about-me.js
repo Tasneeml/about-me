@@ -96,6 +96,10 @@ var questions = [
 
 
   ]
+  function tasneem1() {
+
+      
+  
   for (var count=0;count<5; count++){
   var  exact= questions[count];
   var promptquestions = exact[0];
@@ -126,8 +130,12 @@ var questions = [
     break;
     }
 }
+  }
+  tasneem1();
+  console.log(tasneem1);
 
 
+  function tasneem2(){
 for (var count=0;count<4; count++)
 {
 var pla=prompt ("how many places i hope visit ?")
@@ -154,13 +162,21 @@ else {
 }
 
 }
-alert("20 places");
+alert("20 places");}
+tasneem2();
+  console.log(tasneem2);
+
+  function tasneem3() {
+
 var pla=['Italy','Spain','France','amirica','iraq','Bulgaria']
+  
+  
+      
+  
 
  for(var count = 0; count < 5; count++) {
 
     var myplaces = prompt("guess one of my top ten places i hope visit?");
-
     switch (myplaces) {
         case pla[0]:
         case pla[1]:
@@ -168,16 +184,19 @@ var pla=['Italy','Spain','France','amirica','iraq','Bulgaria']
         case pla[3]:
         case pla[4]:
         case pla[5]:
-            alert("  You are right, My favorite countrys are : Italy,Spain,France,United,Switzerlan,Bulgaria");
+            alert("  You are right, My favorite countrys are : iraq,Italy,Spain,France,United,Bulgaria");
             counter = counter + 1;
             console.log(myplaces);
             count = 5;
             break;
         default:
-            alert("Unfortunately you are wrong ~_~! Try it again  ")
+            alert("Unfortunately you are wrong ~_~! Try it again")
             console.log(myplaces);
             break;
     }
   }
   alert("your point are" + counter)
   alert("thanks you" + name);
+  }
+  tasneem3();
+  console.log(tasneem3);
