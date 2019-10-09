@@ -119,7 +119,7 @@ var questions = [
     case "n":
             console.log(exact);
     alert(negativeReply);
-
+4
     break;
     default :
     alert (defaultreply) ;
@@ -174,10 +174,10 @@ var pla=['Italy','Spain','France','amirica','iraq','Bulgaria']
             count = 5;
             break;
         default:
-            alert("Unfortunately you are wrong ~_~! Try it again  ")
+            alert("Unfortunately you are wrong ~_~! Try it again  ");
             console.log(myplaces);
             break;
     }
   }
-  alert("your point are" + counter)
-  alert("thanks you" + name);
+  alert(" your point are " + counter);
+  alert(" thanks you " + name);
